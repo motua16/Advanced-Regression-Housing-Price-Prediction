@@ -8,8 +8,9 @@ Many problems in the industry can be solved using Regression. I have tried vario
 
 I have outlined the major steps in this project below:
 
-1. Data Preprocessing and Exploration
+`1.` Data Preprocessing and Exploration
 
+* Importing all required libraries
 * Deleting the huge outliners from data.
 * Scaling transformation of target variable
 * Feature Engineering for slection of better features for our data.
@@ -17,33 +18,17 @@ I have outlined the major steps in this project below:
 * Label Encoding some categorical variables
 * Using Box Cox Transformation of (highly) skewed features
 
-### Modelling
+`2.` Modelling and generating Predictions
 
-Importing all required libraries
+* Models used are listed below :
 
-Cross validation strategy definition
+  * LASSO 
+  * Linear Regression
+  * Gradient Boosting Regression
+  * XGBoost
 
-Base models used 
 
-1.LASSO Regression
-
-2.Elastic Net Regression
-
-3.Kernel Ridge Regression
-
-4.Gradient Boosting Regression
-
-5.XGBoost
-
-6.LightGBM 
-
-### Stacking Models
-
-Averaged base models class method
-
-Ensembling StackedRegressor, XGBoost and LightGBM
-
-Ensemble prediction and submission.
+* Ensemble prediction and submission.
 
 
 
