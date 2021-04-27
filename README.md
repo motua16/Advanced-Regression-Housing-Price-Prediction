@@ -1,22 +1,21 @@
 # House-Prices-Advanced-Regression-Techniques
 
-This data is taken from kaggle.
+The aim for this project is to predict accurate Housing Prices using advanced regression techniques. This data is taken from kaggle and can be found [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
-### Data Processing
+## About 
 
-Deleting the huge outliners from data.
-  
-Log - transformation of target variable
+Many problems in the industry can be solved using Regression. I have tried various models such as Linear Regression and advanced models such as Gradient Boosted Trees, Random Forest Regression and XGBoost to get the most accurate prediction of Housing Prices on the Ames Housing Dataset.
 
-Feature Engineering for slection of better features for our data.
+I have outlined the major steps in this project below:
 
-Data Correlation matrix for viwing the relationship of variables.
+1. Data Preprocessing and Exploration
 
-There are many missing values in data so we will fill those values as given in the competition rules.
-
-Label Encoding some categorical variables
-
-Using Box Cox Transformation of (highly) skewed features
+* Deleting the huge outliners from data.
+* Scaling transformation of target variable
+* Feature Engineering for slection of better features for our data.
+* There are many missing values in data so we will fill those values as given in the competition rules.
+* Label Encoding some categorical variables
+* Using Box Cox Transformation of (highly) skewed features
 
 ### Modelling
 
