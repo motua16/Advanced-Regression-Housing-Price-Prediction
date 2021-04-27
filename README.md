@@ -27,8 +27,32 @@ I have outlined the major steps in this project below:
   * Gradient Boosting Regression
   * XGBoost
 
+* Generating prediction and submission.
 
-* Ensemble prediction and submission.
+## Input Data
+
+The dataset contains 81 columns and there are 1460 data points for training and 1459 data points to predict for. A description of all columns is given below :
+
+Description of all the columns can be found [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
+## Repository Structure and Description
+
+
+| - data
+| |- train.csv # training data
+| |- test.csv # test data
+
+- README.md
+- housing-prediction.ipynb # Python 3 notebook, which depicts the working
+- submission.csv # submission generated from this notebook
+
+## Improvements
+
+The following improvements can be made over this:
+
+* Engineering new features from the given columns
+* Trying other models such as Light-GBM
+
 
 
 
