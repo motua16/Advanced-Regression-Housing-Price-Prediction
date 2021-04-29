@@ -46,6 +46,7 @@ Description of all the columns can be found [here](https://www.kaggle.com/c/hous
 - housing-prediction.ipynb # Python 3 notebook, which depicts the working
 - submission.csv # submission generated from this notebook
 `
+
 ## Improvements
 
 The following improvements can be made over this:
