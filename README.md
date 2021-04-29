@@ -41,11 +41,11 @@ Description of all the columns can be found [here](https://www.kaggle.com/c/hous
 | - data
 | |- train.csv # training data
 | |- test.csv # test data
-`
+
 - README.md
 - housing-prediction.ipynb # Python 3 notebook, which depicts the working
 - submission.csv # submission generated from this notebook
-
+`
 ## Improvements
 
 The following improvements can be made over this:
